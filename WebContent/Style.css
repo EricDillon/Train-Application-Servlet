@@ -1,0 +1,126 @@
+@CHARSET "ISO-8859-1";
+
+/*
+===================================================================
+Basic Body layout
+===================================================================
+*/
+
+body {
+	background-color: grey;
+	
+}
+
+h1 {
+	background-color: lightgreen;
+	border: 2px solid black;
+	
+	padding: 10px;
+}
+
+
+div {
+
+	
+	padding: 10px 100px 100px 100px; /*Top, right, bottom, left*/
+	background-color: white;
+	border: 3px solid black;
+	
+	width: 600px;
+	max-width:100%;
+	height:width;
+	
+	/*This block centers the div on the screen, regardless of any resoluton */
+	position:absolute;
+	top:10;
+	bottom:5;
+	left:0;
+	right:0;
+	margin:auto;
+	
+	word-wrap:break-word;
+}
+
+
+/*
+===================================================================
+Links 
+===================================================================
+*/
+a {
+	padding: 5px;
+	background-color: lightblue;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	border: 2px solid black;
+	
+	
+}
+
+a:link:hover
+{
+	color: black;
+	text-decoration: underline;
+	transition: 0.5s;
+	background-color: red;
+	text-decoration:none;
+}
+
+a:active 
+{
+	color: black;
+	text-decoration: underline;
+}
+a:visited
+{
+	text-decoration:none;
+	color: black;
+}
+a:visited:hover
+{
+	background-color: red;
+	text-decoration:none;
+	color: black;
+}
+
+/*
+===================================================================
+Table
+===================================================================
+*/
+
+table {
+	background-color: white;
+	border: 3px solid black;
+	padding: 10px;
+}
+
+th {
+	background-color: darkgrey;
+	border: 2px solid black;
+	padding: 10px;
+	text-align: center;
+}	
+
+td {
+	padding: 10px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+/*
+===================================================================
+input
+===================================================================
+*/
+
+
+.passengerInfo {
+	width: 20%;
+}
+
+#login {
+	/* width:100% !important; */
+}
+
